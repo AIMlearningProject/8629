@@ -1,3 +1,4 @@
+This project is part of the AIMlearning project, which is co-funded by the European Union. The project will run from 1.2.2024 to 30.4.2027.
 # Centria 3D Logo Branding Items
 ## Project Code: 8629 
 
