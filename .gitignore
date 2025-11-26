@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Blender
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+
+# 3D Printing Project - Temporary/Generated Files
+Centria_3D_Logo_Project/final_delivery/**/*.stl
+Centria_3D_Logo_Project/final_delivery/**/*.blend
+Centria_3D_Logo_Project/final_delivery/**/*.png
+Centria_3D_Logo_Project/source_vectors/processed/
+*.stl
+*.blend
+*.obj
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Test coverage
+coverage/
+
+# Production builds
+library-ui/dist/
+
+# Local test files
+test-output/
+temp/

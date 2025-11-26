@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Centria FI Logo -->
+  <g fill="#000000">
+    <!-- C Letter -->
+    <path d="M 20 15 Q 15 15 15 20 L 15 60 Q 15 65 20 65 L 40 65 L 40 55 L 25 55 L 25 25 L 40 25 L 40 15 Z"/>
+
+    <!-- E Letter -->
+    <path d="M 50 15 L 50 65 L 75 65 L 75 55 L 60 55 L 60 45 L 72 45 L 72 35 L 60 35 L 60 25 L 75 25 L 75 15 Z"/>
+
+    <!-- N Letter -->
+    <path d="M 85 15 L 85 65 L 95 65 L 95 35 L 105 65 L 115 65 L 115 15 L 105 15 L 105 45 L 95 15 Z"/>
+
+    <!-- T Letter -->
+    <path d="M 125 15 L 125 25 L 135 25 L 135 65 L 145 65 L 145 25 L 155 25 L 155 15 Z"/>
+
+    <!-- R Letter -->
+    <path d="M 165 15 L 165 65 L 175 65 L 175 45 L 180 45 L 187 65 L 197 65 L 189 43 Q 192 40 192 35 L 192 25 Q 192 15 182 15 Z M 175 25 L 182 25 L 182 35 L 175 35 Z"/>
+
+    <!-- FI Text -->
+    <text x="70" y="78" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold">KIRJASTO</text>
+  </g>
+</svg>

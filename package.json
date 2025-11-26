@@ -1,0 +1,26 @@
+{
+  "name": "centria-projects",
+  "version": "1.0.0",
+  "description": "Centria Projects - 3D Logo Printing & Library UI",
+  "private": true,
+  "workspaces": [
+    "library-ui"
+  ],
+  "scripts": {
+    "library:dev": "cd library-ui && npm run dev",
+    "library:build": "cd library-ui && npm run build",
+    "library:preview": "cd library-ui && npm run preview",
+    "3d:tracker": "python -m http.server 8000 --directory Centria_3D_Logo_Project/checklist",
+    "3d:organize": "cd Centria_3D_Logo_Project/scripts/automation && python file_organizer.py",
+    "3d:process-svg": "cd Centria_3D_Logo_Project/scripts/automation && python svg_processor.py",
+    "install:all": "npm install && cd library-ui && npm install"
+  },
+  "keywords": [
+    "centria",
+    "3d-printing",
+    "library-ui",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC"
+}

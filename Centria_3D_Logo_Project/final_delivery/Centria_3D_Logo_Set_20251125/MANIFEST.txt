@@ -1,0 +1,93 @@
+# Centria 3D Logo Set - Delivery Manifest
+## Project Code: 8629
+**Generated:** 2025-11-25 22:07:06
+
+### Package Contents
+
+**3D Models (STL Files):**
+- Finnish/stl/pin.stl
+- Finnish/stl/magnet.stl
+- Finnish/stl/keyring.stl
+- Finnish/stl/cake_mould.stl
+- English/stl/pin.stl
+- English/stl/magnet.stl
+- English/stl/keyring.stl
+- English/stl/cake_mould.stl
+- C_letter/stl/pin.stl
+- C_letter/stl/magnet.stl
+- C_letter/stl/keyring.stl
+- C_letter/stl/cake_mould.stl
+
+**Total STL Files:** 12
+
+**Source Files:**
+- source_vectors/Centria_FI.svg
+- source_vectors/Centria_EN.svg
+- source_vectors/Centria_C.svg
+
+**Documentation:**
+- README.md
+- PRINTING_GUIDE.md
+- ASSEMBLY_GUIDE.md
+- MANIFEST.txt (this file)
+
+### File Status
+
+| File Type | Expected | Status |
+|-----------|----------|--------|
+| STL Files | 12 | ⏳ Pending Blender export |
+| SVG Files | 3 | ✅ Included |
+| Documentation | 4 | ✅ Complete |
+| Folder Structure | 3 variants | ✅ Created |
+
+### Next Steps
+
+1. **Run Blender Pipeline:**
+   ```
+   blender --background --python batch_process_all.py
+   ```
+
+2. **Copy STL Files:**
+   - From `exports/` folder
+   - To appropriate `*/stl/` folders in this delivery package
+
+3. **Optional - Generate Renders:**
+   - Open .blend files in Blender
+   - Render preview images
+   - Save to `*/renders/` folders
+
+4. **Quality Check:**
+   - Verify all 12 STL files present
+   - Check file sizes (should be 50KB - 2MB each)
+   - Open random STLs in slicer to verify
+
+5. **Package for Delivery:**
+   - Compress entire folder
+   - Or burn to CD/USB
+   - Include hardware specifications sheet
+
+### Hardware Requirements Summary
+
+**For Full Set Production (12 variants):**
+- 3× 10mm pin backs (one per pin type)
+- 3× 12mm × 2mm magnets (one per magnet type)
+- 3× keyring split rings (one per keyring type)
+- 0× hardware for cake moulds
+
+**For Batch (50 of each):**
+- 150× pin backs
+- 150× magnets
+- 150× keyring rings
+- Food-safe material for moulds
+
+### Support Information
+
+**Technical Questions:** See SETUP_GUIDE.md
+**Printing Issues:** See PRINTING_GUIDE.md
+**Assembly Help:** See ASSEMBLY_GUIDE.md
+
+---
+
+**Prepared By:** Centria 3D Production Team
+**Project Code:** 8629
+**Status:** Ready for STL Export

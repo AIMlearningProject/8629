@@ -1,0 +1,169 @@
+/* App Container */
+.app {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+/* Landing Page */
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-header {
+  padding: var(--space-12) var(--space-6);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.logo-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centria-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: var(--space-4);
+  object-fit: contain;
+}
+
+.logo-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+  letter-spacing: -0.03em;
+}
+
+.tagline {
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  font-weight: 400;
+}
+
+.logo-section .project-code {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  margin-top: var(--space-2);
+  font-family: 'Courier New', monospace;
+  opacity: 0.7;
+}
+
+/* Main Content */
+.landing-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-12) var(--space-6);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.language-prompt {
+  text-align: center;
+  margin-bottom: var(--space-12);
+}
+
+.language-prompt h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+}
+
+.language-prompt p {
+  font-size: 1rem;
+  color: var(--color-text-light);
+}
+
+/* Footer */
+.landing-footer {
+  padding: var(--space-6);
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.landing-footer p {
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+}
+
+/* Back Button */
+.back-button {
+  position: fixed;
+  top: var(--space-6);
+  left: var(--space-6);
+  padding: var(--space-3) var(--space-6);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  z-index: 1000;
+}
+
+.back-button:hover {
+  background-color: var(--color-hover);
+  border-color: var(--color-secondary);
+  box-shadow: var(--shadow-md);
+}
+
+.back-button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .centria-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-section h1 {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .language-prompt h2 {
+    font-size: 1.25rem;
+  }
+
+  .landing-main {
+    padding: var(--space-8) var(--space-4);
+  }
+
+  .back-button {
+    top: var(--space-4);
+    left: var(--space-4);
+    padding: var(--space-2) var(--space-4);
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-section h1 {
+    font-size: 1.75rem;
+  }
+
+  .landing-header {
+    padding: var(--space-8) var(--space-4);
+  }
+
+  .landing-main {
+    padding: var(--space-6) var(--space-4);
+  }
+}
